@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS CARD</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rebeccapurple;
+        padding: 0px 50px;
+        margin: 500px;
+    }
+
+    .card {
+        background-color: white;
+        width: 250px;
+        height: 380px;
+        border-radius: 7px;
+        margin: 10px 10px ;
+    }
+
+    .imag {
+        padding: 5px;
+    }
+
+    .imag img {
+        border-radius: 7px;
+    }
+
+    .content h2 {
+        padding: 6px 0px 0px 6px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .content p {
+        font-size: 13px;
+        padding: 1px 5px 0px 5px;
+        color: rgba(24, 23, 23, 0.59);
+    }
+
+    .content {
+        padding: 2px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .capsule span {
+        border: 2px solid rgba(70, 66, 66, 0.303);
+        padding: 2px 9px;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+
+    .capsule {
+        padding: 0px 0px 0px 20px;
+    }
+    .button {
+        text-align: center;
+        padding: 7px;                                             
+        border-radius: 9px;
+    }
+    .but{
+        border-radius: 10px;
+        background-color:rgb(218, 240, 255);
+        font-family: "Poppins", sans-serif;
+        height: 25px;
+        width: 85px;
+        border: none;
+        font-weight: bold;
+        color: rgb(14, 150, 234);
+        font-size: 12px;
+    }
+    .button .but:hover{
+           background-color: aliceblue;
+    }
+</style>
+
+<body>
+    <div class="card">
+        <div class="imag">
+            <img width="240
+            " src="fisher boat.jpg" alt="a boat">
+        </div>
+        <div class="capsule">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Hay! fisherman</h2>
+            <p>The first fish was known for his wisdom and smartness. He always believed in taking thoughtful
+                decisions.The second fish was very smart and intelligent.</p>
+        </div>
+        <div class="button">
+            <button class="but">Reed More</button>
+        </div>
+    </div>
+</body>
